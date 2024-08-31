@@ -1,12 +1,10 @@
-// lib/injection_container.dart
-
-import 'package:flutter_challenge_fe/services/bloc/article_bloc.dart';
 import 'package:get_it/get_it.dart';
 import 'package:http/http.dart' as http;
 
 import 'data/datasources/article_remote_data_source.dart';
 import 'data/repositories/article_repository.dart';
 import 'domain/usecases/get_articles.dart';
+import 'services/bloc/article_bloc.dart';
 
 final sl = GetIt.instance;
 
